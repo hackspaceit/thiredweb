@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import { FrameRequest } from "../../../../../@coinbase/onchainkit";
+import { FrameRequest } from "@coinbase/onchainkit";
 import { CoinbaseKit } from '../../../../../classes/CoinbaseKit';
 import { getERC721PreparedEncodedData, getFarcasterAccountAddress } from '../../../../../utils/tx-frame';
 import { erc721ContractAddress } from '../../../../../utils/constants';
